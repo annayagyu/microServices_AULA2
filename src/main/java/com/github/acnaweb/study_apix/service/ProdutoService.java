@@ -16,7 +16,7 @@ public class ProdutoService {
     public Produto save(Produto request) {
 
         request.setId(id++);
-
+        produtos.add(request);
         return request;
     }
 
